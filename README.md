@@ -14,22 +14,22 @@ This project provides a simple CRUD API for managing cryptocurrencies in a mock 
 
 1. **Clone the repository:**
 
-\`\`\`bash
+```bash
 git clone <repository-url>
 cd path-to-repository
-\`\`\`
+```
 
 2. **Install the required packages:**
 
-\`\`\`bash
+```bash
 pip install -r requirements.txt
-\`\`\`
+```
 
 3. **Run the FastAPI server:**
 
-\`\`\`bash
+```bash
 uvicorn main:app --reload
-\`\`\`
+```
 
 This will start the FastAPI server on `http://127.0.0.1:8000`.
 
@@ -45,9 +45,9 @@ This will start the FastAPI server on `http://127.0.0.1:8000`.
 
 Tests are available in the `tests` directory. To run them, use:
 
-\`\`\`bash
+```bash
 pytest
-\`\`\`
+```
 
 ## Continuous Integration
 
